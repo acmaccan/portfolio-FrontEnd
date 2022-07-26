@@ -121,6 +121,44 @@ h3 {
   color: #EEEDF3;
 }
 
+.login {
+  margin: 10em auto;
+  width: 27em;
+  height: 29em;
+}
+
+.login .am {
+  display: block;
+  margin: 0 auto;
+  width: 6.25em;
+  margin: 2em auto;
+}
+
+.login .card-title {
+  text-align: center;
+}
+
+.login .card-body {
+  margin-top: 0;
+}
+
+.login input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.login input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.login .btn {
+  background-color: #212529;
+  color: #EEEDF3;
+}
+
 footer {
   text-align: center;
   margin: 2em 0;
