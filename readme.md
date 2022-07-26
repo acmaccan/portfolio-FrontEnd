@@ -3,23 +3,22 @@
 _Fecha de entrega:_ 31 de agosto de 2022.
 
 ## Planificación por módulos
-
-Jira: https://acmaccan.atlassian.net/jira/software/projects/APA/boards/7/backlog
-
 ### Módulo 1
-- SCRUM:                Crear las historias de usuarios, estimar SP y hs.
+- SCRUM:                Crear las historias de usuarios, estimar SP y hs. 
+                        Jira: https://acmaccan.atlassian.net/jira/software/projects/APA/boards/7/backlog
 - FIGMA:                Diseñar el prototipo del portfolio.
-- GITHUB:               Crear el repositorio en GitHub. Subir el prototipo a la wiki.
+                        Figma: https://www.figma.com/file/wGZzbgwo12vjppGRG50DCN/Portfolio-Argentina-Programa
+- GITHUB:               Crear el repositorio en GitHub. Branch: main.
 
 ### Módulo 2
 - SCRUM:                Crear las historias de usuarios, estimar SP y hs.
-- HTML, CSS, Boostrap:  En base al prototipo diseñado, crear la maqueta.
-- GITHUB:               Subir maquetado al repositorio. Branch: FrontEnd.
+- HTML, CSS, Boostrap:  En base al prototipo diseñado, crear la maqueta. Se crean /index.html y /login.html
+- GITHUB:               Subir maquetado al repositorio. Branch: static-frontend.
 
 ### Módulo 3
 - SCRUM:                Crear las historias de usuarios, estimar SP y hs.
-- ANGULAR:              En base a la maqueta, crear una aplicación SPA.
-- GITHUB:               Subir desarrollo al repositorio. Branch: FrontEnd-Angular.
+- ANGULAR:              En base a la maqueta, crear una aplicación SPA. 
+- GITHUB:               Subir desarrollo al repositorio. Branch: angular-frontend.
 
 ### Módulo 4
 - SCRUM:                Crear las historias de usuarios, estimar SP y hs.
