@@ -1,24 +1,41 @@
 body{
   background-color: #BAC0D7;
   font-family: 'Roboto', sans-serif;
+  font-size: 0.875em;
   color: #212529;
 }
 
-h3, h5{
+h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-size: 1.75em;
+  font-weight: 600;
+  color: #483D8B;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 2.25em;
+  color: #483D8B;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
   color: #483D8B;
 }
 
 .navbar {
   background-color: #24283B;
-  height: 4.25em;
+  height: 4em;
 }
 
 .left .logo {
   position: relative;
   top: -0.25em;
-  height: 4.5em;
+  height: 4em;
 }
 
 .left .navbar-brand {
@@ -26,8 +43,8 @@ h3, h5{
   font-weight: 500;
   color: #fff;
   position: relative;
-  top: 0.2em;
-  height: 4.25em;
+  top: 0.1em;
+  height: 3em;
 }
 
 .right .social {
@@ -63,7 +80,7 @@ h3, h5{
 .profile .avatar {
   border-radius: 50%;
   max-width: 12rem;
-  margin: -7rem 0 0 1rem;
+  margin: -7rem 0 1em 1rem;
 }
 
 .card-body {
@@ -86,6 +103,7 @@ h3, h5{
 }
 
 .progress {
+  height: 0.45em;
   background-color: #FFFFFF;
   margin: 1em 0 2em 0;
 }
