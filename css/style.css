@@ -1,0 +1,110 @@
+body{
+  background-color: #BAC0D7;
+  font-family: 'Roboto', sans-serif;
+  color: #212529;
+}
+
+h3, h5{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #483D8B;
+}
+
+.navbar {
+  background-color: #24283B;
+  height: 4.25em;
+}
+
+.left .logo {
+  position: relative;
+  top: -0.25em;
+  height: 4.5em;
+}
+
+.left .navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+  top: 0.2em;
+  height: 4.25em;
+}
+
+.right .social {
+  display: inline;
+  position: relative;
+  top: -0.3em;
+}
+
+.right .social img{
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.65em;
+}
+
+.right .btn {
+  position: relative;
+  top: -0.5em;
+}
+
+.banner {
+  height: 50vh;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile .avatar {
+  border-radius: 50%;
+  max-width: 12rem;
+  margin: -7rem 0 0 1rem;
+}
+
+.card-body {
+  padding: 1.5em;
+  margin-top: 1.5em;
+  background-color: #EEEDF3;
+}
+
+.experience .thumbnail img, .education .thumbnail img {
+  border: 1px solid #B3B9D3;
+  padding: 0.5em;
+  width: 5em;
+  height: 5em;
+}
+
+.experience .row, .education .row {
+  margin: 0 0.25em;
+  padding: 1em 0;
+  border-bottom: 1px solid #B3B9D3;
+}
+
+.progress {
+  background-color: #FFFFFF;
+  margin: 1em 0 2em 0;
+}
+
+.progress-bar {
+  background-color: #212529;
+}
+
+.project .card .card-body {
+  background-color: #FFFFFF;
+}
+
+.project .btn {
+  background-color: #212529;
+  color: #EEEDF3;
+}
+
+footer {
+  text-align: center;
+  margin: 2em 0;
+  font-size: 0.825em;
+}
