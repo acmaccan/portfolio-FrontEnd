@@ -62,6 +62,9 @@ h3 {
 .right .btn {
   position: relative;
   top: -0.5em;
+  width: 5.25em;
+  height: 2.5em;
+  font-size: 1em;
 }
 
 .banner {
