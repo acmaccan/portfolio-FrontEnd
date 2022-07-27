@@ -1,1 +1,180 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #BAC0D7;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875em;
+  color: #212529;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.75em;
+  font-weight: 600;
+  color: #483D8B;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 2.25em;
+  color: #483D8B;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #483D8B;
+}
+
+.navbar {
+  background-color: #24283B;
+  height: 4em;
+}
+
+.left .logo {
+  position: relative;
+  top: -0.25em;
+  height: 4em;
+}
+
+.left .navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+  top: 0.1em;
+  height: 3em;
+}
+
+.right .social {
+  display: inline;
+  position: relative;
+  top: -0.3em;
+}
+
+.right .social img{
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 1em;
+}
+
+.right .btn {
+  position: relative;
+  top: -0.5em;
+  width: 5.25em;
+  height: 2.5em;
+  font-size: 1em;
+}
+
+.banner {
+  height: 50vh;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile .avatar {
+  border-radius: 50%;
+  max-width: 12rem;
+  margin: -7rem 0 1em 1rem;
+}
+
+.card-body {
+  padding: 1.5em;
+  margin-top: 1.5em;
+  background-color: #EEEDF3;
+}
+
+.experience .thumbnail img, .education .thumbnail img {
+  border: 1px solid #B3B9D3;
+  padding: 0.5em;
+  width: 5em;
+  height: 5em;
+}
+
+.experience .row, .education .row {
+  margin: 0 0.25em;
+  padding: 1em 0;
+  border-bottom: 1px solid #B3B9D3;
+}
+
+.progress {
+  height: 0.45em;
+  background-color: #FFFFFF;
+  margin: 1em 0 2em 0;
+}
+
+.progress-bar {
+  background-color: #212529;
+}
+
+.project .card .card-body {
+  background-color: #FFFFFF;
+  height: 12.5em;
+}
+
+.project .btn {
+  background-color: #212529;
+  color: #EEEDF3;
+}
+
+.login {
+  margin: 10em auto;
+  width: 27em;
+  height: 29em;
+}
+
+.login .am {
+  display: block;
+  margin: 0 auto;
+  width: 6.25em;
+  margin: 2em auto;
+}
+
+.login .card-title {
+  text-align: center;
+}
+
+.login .card-body {
+  margin-top: 0;
+}
+
+.login input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.login input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.login .btn {
+  background-color: #212529;
+  color: #EEEDF3;
+}
+
+.edition button {
+  background-color: #212529;
+  color: #EEEDF3;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  line-height: 0px;
+  margin-left: 0.5em;
+}
+
+footer {
+  text-align: center;
+  margin: 2em 0;
+  font-size: 0.825em;
+}
