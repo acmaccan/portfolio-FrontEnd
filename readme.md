@@ -39,3 +39,8 @@ ng generate component components/education
 ng generate component components/skill
 ng generate component components/project
 ng generate component components/footer
+
+## Create portfolio service
+ng generate service services/portfolio (Add to app.module.ts: import and providers)
+Import HttpClient to portfolio service and import it to app.module.ts
+Create mock.json
