@@ -25,10 +25,17 @@ Format stylesheet CSS
 
 ## Move static code to angular project
 - html headers to index.html.<br/>
-  If we install bootstrap with includes .js and .css files in angular.json
+  If we install bootstrap with package includes .js and .css files in angular.json
 - index body to app.component.html
 - login body to login.component.html
 - styles to app.component.css
 - move assets
+- create components and move code
 ## Create components
-ng generate component portfolio
+ng generate component components/header
+ng generate component components/about
+ng generate component components/experience
+ng generate component components/education
+ng generate component components/skill
+ng generate component components/project
+ng generate component components/footer
