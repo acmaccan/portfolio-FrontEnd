@@ -117,6 +117,7 @@ h3 {
 
 .project .card .card-body {
   background-color: #FFFFFF;
+  height: 12.5em;
 }
 
 .project .btn {
@@ -160,6 +161,16 @@ h3 {
 .login .btn {
   background-color: #212529;
   color: #EEEDF3;
+}
+
+.edition button {
+  background-color: #212529;
+  color: #EEEDF3;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  line-height: 0px;
+  margin-left: 0.5em;
 }
 
 footer {
