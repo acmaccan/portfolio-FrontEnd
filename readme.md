@@ -19,9 +19,9 @@ Package                      Version<br/>
 @schematics/angular          14.1.0 (cli-only)<br/>
 
 ## Create angular project
-ng new angular-frontend<br/>
-Angular routing<br/>
-Format stylesheet CSS
+- ng new angular-frontend
+- Angular routing
+- Format stylesheet CSS
 
 ## Move static code to angular project
 - html headers to index.html.<br/>
