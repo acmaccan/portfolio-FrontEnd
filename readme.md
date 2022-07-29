@@ -32,15 +32,17 @@ Format stylesheet CSS
 - move assets
 - create components and move code
 ## Create components
-ng generate component components/header
-ng generate component components/about
-ng generate component components/experience
-ng generate component components/education
-ng generate component components/skill
-ng generate component components/project
-ng generate component components/footer
+- ng generate component components/header
+- ng generate component components/about
+- ng generate component components/experience
+- ng generate component components/education
+- ng generate component components/skill
+- ng generate component components/project
+- ng generate component components/footer
 
 ## Create portfolio service
-ng generate service services/portfolio (Add to app.module.ts: import and providers)
-Import HttpClient to portfolio service and import it to app.module.ts
-Create mock.json
+- ng generate service services/portfolio (Add to app.module.ts: import and providers)
+- Import HttpClient to portfolio service and import it to app.module.ts
+- Create mock.json
+- Create methods on portfolio service for each component
+- Subscribe to that data from each component
