@@ -39,7 +39,17 @@
         </div>
         <h2>Experience</h2>
 
-        <div class="row">
+        <div class="row milestone" *ngFor="let experience of experiences">
+          <div class="thumbnail col-1">
+            <img [src]="experience.thumb" [alt]="experience.institution"/>
+          </div>
+          <div class="details col-11">
+            <h3>{{experience.institution}} | {{experience.from_date}} - {{experience.to_date}}</h3>
+            <p><b>{{ experience.title }}</b> {{experience.details}}</p>
+          </div>
+        </div>
+
+        <!-- <div class="row">
           <div class="thumbnail col-1">
             <img src="assets/images/experience/ticmas.png" alt="Ticmas" />
           </div>
@@ -83,7 +93,7 @@
               sobre servidor Apache. CPanel y WHM. DNS. Dominios.
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

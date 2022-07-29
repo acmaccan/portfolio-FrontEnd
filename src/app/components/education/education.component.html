@@ -40,7 +40,18 @@
 
         <h2>Education</h2>
 
-        <div class="row">
+        <div class="row mile" *ngFor="let education of educations">
+          <div class="thumbnail col-1">
+            <img [src]="education.thumb" [alt]="education.institution"/>
+          </div>
+          <div class="details col-11">
+            <h3>{{education.institution}} | {{education.from_date}} - {{education.to_date}}</h3>
+            <p><b>{{ education.title }}</b> {{education.details}}
+            </p>
+          </div>
+        </div>
+
+        <!-- <div class="row">
           <div class="thumbnail col-1">
             <img
               src="assets/images/education/arg.png"
@@ -211,7 +222,7 @@
               Eventos.
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

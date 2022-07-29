@@ -40,7 +40,22 @@
 
         <h2>Proyectos</h2>
 
-        <div class="row">
+        <div class="card" *ngFor="let project of projects">
+          <img
+            class="card-img-top"
+            [src]="project.image"
+            [alt]="project.title"
+          />
+          <div class="card-body">
+            <h3 class="card-title">
+              {{ project.title }} | {{ project.project_year }}
+            </h3>
+            <p class="card-text">{{ project.details }}</p>
+            <a class="btn" [href]="project.link" target="_blank">Link</a>
+          </div>
+        </div>
+
+        <!-- <div class="row">
           <div class="col-4">
             <div class="card">
               <img
@@ -105,7 +120,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

@@ -15,7 +15,7 @@ export class PortfolioService {
   }
 
   getUserData(): Observable<any> {
-    // return this.http.get('../../assets/data/mock-data.json');
+    // return this.http.get('../../assets/data/data.json');
     return this.http.get<any>(this.url+'user/get/1');
   }
 

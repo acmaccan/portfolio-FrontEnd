@@ -40,7 +40,23 @@
 
         <h2>Skills</h2>
 
-        <div class="row">
+        <div class="row" *ngFor="let skill of skills">
+          <div class="col-12">
+            <h3>{{skill.skill}}</h3>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 95%"
+                aria-valuenow="skill.percentage"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="row">
           <div class="col-12">
             <h3>Organización</h3>
             <div class="progress">
@@ -157,7 +173,7 @@
               ></div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
