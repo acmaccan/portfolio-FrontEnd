@@ -22,7 +22,8 @@
       "company": "Ticmas",
       "details": "Desarrolladora Fullstack. Plataforma educativa bajo metodología SCRUM, GitFlow y CI/CD. Arquitectura de Microservicios. Tecnologías: Angular, NgRx, RxJs, NestJS,GraphQL, MongoDB, PostgreSQL, Algolia Search, React, Next, Material UI, Chakra.",
       "from_date": "2022",
-      "to_date": "Actualidad"
+      "to_date": "Actualidad",
+      "type": "1"
     },
     {
       "id": "2",
@@ -30,7 +31,8 @@
       "company": "Puntovero.com",
       "details": "Ecommerce Manager. Venta de arte online. Migración de plataforma a Opencart 3, gestión y soporte. Curaduría de contenidos web y social. Tareas administrativas, ventas y gestión de artistas.",
       "from_date": "2016",
-      "to_date": "2021"
+      "to_date": "2021",
+      "type": "2"
     },
     {
       "id": "3",
@@ -38,7 +40,22 @@
       "company": "Freelance",
       "details": "Freelance Desarrollo Frontend & Hosting. Diseño y desarrollo web. Librerías. Crossbrowser y optimización. PHP + MySQL basics. Setup y gestión de hosting compartidos y dedicados sobre servidor Apache. CPanel y WHM. DNS. Dominios.",
       "from_date": "2010",
-      "to_date": "2015"
+      "to_date": "2015",
+      "type_id": "3"
+    }
+  ],
+  "type": [
+    {
+      "id": "1",
+      "name": "Full Time"
+    },
+    {
+      "id": "2",
+      "name": "Part Time"
+    },
+    {
+      "id": "3",
+      "name": "Freelance"
     }
   ],
   "education": [
