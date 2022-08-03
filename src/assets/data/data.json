@@ -5,7 +5,7 @@
       "firstname": "Andrea",
       "lastname": "Maccan",
       "birthday": "1985-07-28",
-      "nacionality": "Argentina",
+      "nationality": "Argentina",
       "email": "acmaccan@gmail.com",
       "password": "pass123!",
       "about": "Comencé a desarrollar en 2008 por curiosidad con HTML, CSS y JS. Hoy trabajo en EdTech, para Vi-Da Tec como Fullstack Developer, desarrollando el producto Ticmas. Me apasiona aprender, conocer cómo funcionan las nuevas tecnologías y el trabajo en equipo.",
@@ -20,38 +20,44 @@
       "id": "1",
       "thumb": "../assets/images/experience/ticmas.png",
       "company": "Ticmas",
-      "details": "Desarrolladora Fullstack. Plataforma educativa bajo metodología SCRUM, GitFlow y CI/CD. Arquitectura de Microservicios. Tecnologías: Angular, NgRx, RxJs, NestJS,GraphQL, MongoDB, PostgreSQL, Algolia Search, React, Next, Material UI, Chakra.",
+      "title": "Fullstack Developer",
+      "details": "Plataforma educativa bajo metodología SCRUM, GitFlow y CI/CD. Arquitectura de Microservicios. Tecnologías: Angular, NgRx, RxJs, NestJS,GraphQL, MongoDB, PostgreSQL, Algolia Search, React, Next, Material UI, Chakra.",
       "from_date": "2022",
       "to_date": "Actualidad",
-      "type": "1"
+      "user_id": "1",
+      "type_id": "1"
     },
     {
       "id": "2",
       "thumb": "../assets/images/experience/pv.png",
       "company": "Puntovero.com",
-      "details": "Ecommerce Manager. Venta de arte online. Migración de plataforma a Opencart 3, gestión y soporte. Curaduría de contenidos web y social. Tareas administrativas, ventas y gestión de artistas.",
+      "title": "Ecommerce Manager",
+      "details": "Venta de arte online. Migración de plataforma a Opencart 3, gestión y soporte. Curaduría de contenidos web y social. Tareas administrativas, ventas y gestión de artistas.",
       "from_date": "2016",
       "to_date": "2021",
-      "type": "2"
+      "user_id": "1",
+      "type_id": "2"
     },
     {
       "id": "3",
       "thumb": "../assets/images/experience/am.png",
       "company": "Freelance",
-      "details": "Freelance Desarrollo Frontend & Hosting. Diseño y desarrollo web. Librerías. Crossbrowser y optimización. PHP + MySQL basics. Setup y gestión de hosting compartidos y dedicados sobre servidor Apache. CPanel y WHM. DNS. Dominios.",
+      "title": "Freelance",
+      "details": "Desarrollo Frontend & Hosting. Diseño y desarrollo web. Librerías. Crossbrowser y optimización. PHP + MySQL basics. Setup y gestión de hosting compartidos y dedicados sobre servidor Apache. CPanel y WHM. DNS. Dominios.",
       "from_date": "2010",
       "to_date": "2015",
+      "user_id": "1",
       "type_id": "3"
     }
   ],
-  "type": [
+  "type_experience": [
     {
       "id": "1",
-      "name": "Full Time"
+      "name": "Full-Time"
     },
     {
       "id": "2",
-      "name": "Part Time"
+      "name": "Part-Time"
     },
     {
       "id": "3",
@@ -65,8 +71,9 @@
       "institution": "Argentina Programa",
       "title": "Etapa 1 #SeProgramar y Etapa 2 #YoProgramo",
       "details": "Fundamentos, programación imperativa y orientada a objetos. Arquitectura web, gestión de tiempo, SCRUM, GitFlow, HTML, CSS, JS, Bootstrap, TypeScript, SPA, MVC, Angular, Bases de Datos Relacionales, UML, POO, patrones de diseño, Java, Spring Boot, Dev Ops, comunicación efectiva",
-      "from_date": "1992",
-      "to_date": "1990"
+      "from_date": "2021.10",
+      "to_date": "2022.08",
+      "user_id": "1"
     },
     {
       "id": "2",
@@ -75,7 +82,8 @@
       "title": "Object Oriented JavaScript",
       "details": "Objetos en profundidad, funciones en tiempo de ejecución, clases y objetos, patrones de diseño orientado a objetos.",
       "from_date": "2021.12",
-      "to_date": "2022.01"
+      "to_date": "2022.01",
+      "user_id": "1"
     },
     {
       "id": "3",
@@ -84,7 +92,8 @@
       "title": "Aceleración en NodeJS",
       "details": "Certificación job ready. Desarrollo en equipo de API para ONG en Node, Express, MySQL, Sequelize, JWT, Sendgrid, S3, Swagger, Mocha & Chai. Metodologías ágiles, Git, buenas prácticas.",
       "from_date": "2021.10",
-      "to_date": "2022.02"
+      "to_date": "2022.02",
+      "user_id": "1"
     },
     {
       "id": "4",
@@ -93,16 +102,18 @@
       "title": "M220JS MongoDB for JS Developers. M103 Basic Cluster Administration. M001 MongoDB Basics.",
       "details": "Client configuration, basic reads. Basic aggregation, updates, deletes and joins. Read concerns and bulks. Resiliency. Environment setup. Mongod. Replication. Sharding. Atlas, Compass & Shell. BSON, JSON, importing and exporting data, and basic document queries. Insert, update, and delete operations. Query operators. Aggregation, indexes, data modeling.",
       "from_date": "2021.08",
-      "to_date": "2021.09"
+      "to_date": "2021.09",
+      "user_id": "1"
     },
     {
       "id": "5",
       "thumb": "../assets/images/education/acc.png",
-      "institution": "Habilidades Blandas",
-      "title": "M220JS MongoDB for JS Developers. M103 Basic Cluster Administration. M001 MongoDB Basics.",
+      "institution": "Accenture",
+      "title": "Habilidades blandas.",
       "details": "Taller orientado a mejorar la autoconfianza, flexibilidad, trabajo en equipo y comunicación.",
       "from_date": "2021.06",
-      "to_date": "2021.06"
+      "to_date": "2021.06",
+      "user_id": "1"
     },
     {
       "id": "6",
@@ -111,7 +122,8 @@
       "title": "Bootcamp NodeJS.",
       "details": "",
       "from_date": "2021.05",
-      "to_date": "2021.07"
+      "to_date": "2021.07",
+      "user_id": "1"
     },
     {
       "id": "7",
@@ -120,7 +132,8 @@
       "title": "Web Fullstack JS + NodeJS.",
       "details": "HTML, CSS, Bootstrap, JS, GIT, Scrum, Arquitectura, Bases de Datos, Node, NPM, Express.",
       "from_date": "2021.04",
-      "to_date": "2021.08"
+      "to_date": "2021.08",
+      "user_id": "1"
     },
     {
       "id": "8",
@@ -129,7 +142,8 @@
       "title": "Enterprise Design Thinking Practitioner.",
       "details": "Bases del Design Thinking: colaboración, síntesis, design research, prototipado y storytelling.",
       "from_date": "2021.03",
-      "to_date": "2021.03"
+      "to_date": "2021.03",
+      "user_id": "1"
     },
     {
       "id": "9",
@@ -138,53 +152,62 @@
       "title": "Orientadora en Desarrollo Humano.",
       "details": "Estrategias y recursos para el desarrollo humano, orientado a valores y propósito, en el ámbito educativo y organizacional, fundados en la Antropología Existencial Frankleana.",
       "from_date": "2020.08",
-      "to_date": "2020.12"
+      "to_date": "2020.12",
+      "user_id": "1"
     },
     {
       "id": "10",
       "thumb": "../assets/images/education/utn.png",
       "institution": "UTN Extensión Universitaria",
-      "title": "Professional Webmaster. Desarrollo web con JavaScript. Desarrollo Avanzado con JS, JQuery y JSON. Fundamentos de la Programación.",
-      "details": "Protocolos, browsers, DNS, dominios, ISPs, hosting. Illustrator y Photoshop. HTML / CSS. SEO. Programación, tipos, algoritmos, metodología, lenguajes, servidores y plataformas. DB relacionales. Modelos de datos. Servidores locales. PHP. MySQL. JavaScript. Librerías. Funciones. Eventos. Estructuras de control de flujo, funciones y propiedades. Principios POO. Prototipos, funciones, eventos. DOM, BOM. Librerías y frameworks. Manipulación del DOM y nodos. Elementos, atributos, estilos. Jerarquías, selectores, atributos, funciones, métodos, eventos, objetos. JSON. AJAX. Lenguajes y paradigmas. Algoritmos, lógica, seudocódigo y diagramas. Variables y tipos. Estructura de datos. POO.",
+      "title": "",
+      "details": "Protocolos, browsers, DNS, dominios, ISPs, hosting. Illustrator y Photoshop. HTML / CSS. SEO. ProgramacProfessional Webmaster. Desarrollo web con JavaScript. Desarrollo Avanzado con JS, JQuery y JSON. Fundamentos de la Programación.ión, tipos, algoritmos, metodología, lenguajes, servidores y plataformas. DB relacionales. Modelos de datos. Servidores locales. PHP. MySQL. JavaScript. Librerías. Funciones. Eventos. Estructuras de control de flujo, funciones y propiedades. Principios POO. Prototipos, funciones, eventos. DOM, BOM. Librerías y frameworks. Manipulación del DOM y nodos. Elementos, atributos, estilos. Jerarquías, selectores, atributos, funciones, métodos, eventos, objetos. JSON. AJAX. Lenguajes y paradigmas. Algoritmos, lógica, seudocódigo y diagramas. Variables y tipos. Estructura de datos. POO.",
       "from_date": "2010",
-      "to_date": "2014"
+      "to_date": "2014",
+      "user_id": "1"
     }
   ],
   "skill": [
     {
       "id": "1",
       "skill": "Organización",
-      "percentage": "95"
+      "percentage": "95",
+      "user_id": "1"
     },
     {
       "id": "2",
       "skill": "Perseverancia",
-      "percentage": "85"
+      "percentage": "85",
+      "user_id": "1"
     },
     {
       "id": "3",
       "skill": "Motivación",
-      "percentage": "80"
+      "percentage": "80",
+      "user_id": "1"
     },
     {
       "id": "4",
       "skill": "SCRUM",
-      "percentage": "70"
+      "percentage": "70",
+      "user_id": "1"
     },
     {
       "id": "5",
       "skill": "Angular",
-      "percentage": "75"
+      "percentage": "75",
+      "user_id": "1"
     },
     {
       "id": "6",
       "skill": "React",
-      "percentage": "85"
+      "percentage": "85",
+      "user_id": "1"
     },
     {
       "id": "7",
       "skill": "Node JS",
-      "percentage": "90"
+      "percentage": "90",
+      "user_id": "1"
     }
   ],
   "project": [
@@ -194,7 +217,8 @@
       "title": "Buscate un gif",
       "details": "App en React + Giphy API integration + hooks + custom hooks + unit testing with Jest, Enzyme and React Hooks Testing Library.",
       "link": "https://acmaccan.github.io/buscateungif/",
-      "project_year": "2022"
+      "project_year": "2022",
+      "user_id": "1"
     },
     {
       "id": "2",
@@ -202,7 +226,8 @@
       "title": "Calculadora",
       "details": "Playing with vanilla JS + DOM.",
       "link": "https://acmaccan.github.io/my-calculator/",
-      "project_year": "2022"
+      "project_year": "2022",
+      "user_id": "1"
     },
     {
       "id": "3",
@@ -210,7 +235,8 @@
       "title": "Exchange",
       "details": "Playing with vanillaJS + DOM + axios + CORS + third party APIs.",
       "link": "https://acmaccan.github.io/exchange-dolar-pesoarg/",
-      "project_year": "2022"
+      "project_year": "2022",
+      "user_id": "1"
     }
   ]
 }
