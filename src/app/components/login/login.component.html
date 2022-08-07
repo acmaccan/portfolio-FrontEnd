@@ -1,0 +1,44 @@
+<div class="container-fluid">
+  <div class="login">
+      <div class="card-body shadow rounded">
+
+        <form [formGroup]="loginForm">
+          <div class="am">
+            <img 
+            src="../../assets/images/am.png"
+            alt="Andrea Maccan" />
+          </div>
+
+          <h1>Bienvenido</h1>
+
+          <div class="form-group">
+            <input type="email" formControlName="email" [ngClass]="{'is-invalid': Email?.errors && Email?.touched, 'is-valid': !Email?.errors && Email?.touched}" class="form-control" id="email" aria-describedby="helpMessage" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="password" formControlName="password" [ngClass]="{'is-invalid': Password?.errors && Password?.touched, 'is-valid': !Password?.errors && Password?.touched}" class="form-control" id="password" placeholder="Password">
+          </div>
+
+          <div class="alerts">
+            <div *ngIf="Email?.errors && Email?.touched">
+              <small *ngIf="Email?.hasError('required')" class="text-danger">
+                Ingrese un mail
+              </small>
+              <small *ngIf="Email?.hasError('email')" class="text-danger">
+                El campo debe ser un email válido
+              </small>
+            </div>
+            <div *ngIf="Password?.errors && Password?.touched">
+              <small *ngIf="Password?.hasError('required')" class="text-danger">
+                Ingrese un password
+              </small>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Login</button>
+        </form>
+        
+    </div>
+  </div>
+  
+  <app-footer></app-footer>
+</div>

@@ -1,0 +1,13 @@
+.edition button {
+  background-color: #212529;
+  color: #EEEDF3;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  line-height: 0px;
+  margin-left: 0.5em;
+}
+
+.hidden {
+  display: none;
+}

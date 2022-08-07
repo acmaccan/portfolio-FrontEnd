@@ -1,0 +1,12 @@
+.education .thumbnail img {
+  border: 1px solid #B3B9D3;
+  padding: 0.5em;
+  width: 5em;
+  height: 5em;
+}
+
+.education .row {
+  margin: 0 0.25em;
+  padding: 1em 0;
+  border-bottom: 1px solid #B3B9D3;
+}

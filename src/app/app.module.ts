@@ -12,6 +12,10 @@ import { ProjectComponent } from './components/project/project.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PortfolioService } from './services/portfolio.service';
 import { HttpClientModule } from '@angular/common/http';
+import { EditionComponent } from './components/edition/edition.component';
+import { LoginComponent } from './components/login/login.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,11 +27,15 @@ import { HttpClientModule } from '@angular/common/http';
     SkillComponent,
     ProjectComponent,
     FooterComponent,
+    EditionComponent,
+    LoginComponent,
+    PortfolioComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [PortfolioService],
   bootstrap: [AppComponent]

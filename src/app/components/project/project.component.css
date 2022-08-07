@@ -1,0 +1,18 @@
+.project .card .card-body {
+  background-color: #fafafa;
+  height: 12.5em;
+  margin-top: 0;
+}
+
+.project .card .card-body {
+  min-height: 13rem;
+}
+
+.project .card .card-body .card-text {
+  min-height: 3.75rem;
+}
+
+.project .btn {
+  background-color: #212529;
+  color: #EEEDF3;
+}
