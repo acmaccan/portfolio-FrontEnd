@@ -1,54 +1,48 @@
-# Proyecto Integrador
+# Proyecto Integrador Argentina Programa
 
-_Fecha de entrega:_ 31 de agosto de 2022.
+## Install Angular CLI globally
 
-## Planificación por módulos
+npm install -g @angular/cli
 
-Jira: https://acmaccan.atlassian.net/jira/software/projects/APA/boards/7/backlog
+Angular CLI: 14.1.0<br/>
+Node: 16.16.0<br/>
+Package Manager: npm 8.14.0<br/>
+OS: win32 x64
 
-### Módulo 1
-- SCRUM:                Crear las historias de usuarios, estimar SP y hs.
-- FIGMA:                Diseñar el prototipo del portfolio.
-- GITHUB:               Crear el repositorio en GitHub. Subir el prototipo a la wiki.
+Angular:
 
-### Módulo 2
-- SCRUM:                Crear las historias de usuarios, estimar SP y hs.
-- HTML, CSS, Boostrap:  En base al prototipo diseñado, crear la maqueta.
-- GITHUB:               Subir maquetado al repositorio. Branch: FrontEnd.
+Package                      Version<br/>
+------------------------------------------------<br/>
+@angular-devkit/architect    0.1401.0 (cli-only)<br/>
+@angular-devkit/core         14.1.0 (cli-only)<br/>
+@angular-devkit/schematics   14.1.0 (cli-only)<br/>
+@schematics/angular          14.1.0 (cli-only)<br/>
 
-### Módulo 3
-- SCRUM:                Crear las historias de usuarios, estimar SP y hs.
-- ANGULAR:              En base a la maqueta, crear una aplicación SPA.
-- GITHUB:               Subir desarrollo al repositorio. Branch: FrontEnd-Angular.
+## Create angular project
+- ng new angular-frontend
+- Angular routing
+- Format stylesheet CSS
 
-### Módulo 4
-- SCRUM:                Crear las historias de usuarios, estimar SP y hs.
-- MySQL:                Diseño y creación de base de datos. Diseño conceptual, diseño lógico y diseño físico.
-- GITHUB:               Crear una carpeta para la base de datos y subir el script SQL al repositorio. Branch: MySQL.
+## Move static code to angular project
+- html headers to index.html.<br/>
+  If we install bootstrap with package includes .js and .css files in angular.json
+- index body to app.component.html
+- login body to login.component.html
+- styles to app.component.css
+- move assets
+- create components and move code
+## Create components
+- ng generate component components/header
+- ng generate component components/about
+- ng generate component components/experience
+- ng generate component components/education
+- ng generate component components/skill
+- ng generate component components/project
+- ng generate component components/footer
 
-### Módulo 5
-- SCRUM:                Crear las historias de usuarios, estimar SP y hs.
-- UML:                  Diseño el diagrama de clases del proyecto. En figma?
-- GITHUB:               Subir el diagrama de clases a la wiki.
-
-### Módulo 6
-- SCRUM:                Crear las historias de usuarios, estimar SP y hs.
-- JAVA:                 Practica del lenguaje y creación el de clases en Java POO (Encapsulamiento, Herencia, Polimorfismo).
-- GITHUB:               Subir clases y prácticas al repositorio. Branch: Java-POO
-
-### Módulo 7
-- SCRUM:                Crear las historias de usuarios, estimar SP y hs.
-- JAVA WEB:             Práctica de lenguaje Java aplicando conceptos de arquitectura web.
-- GITHUB:               Subir práctica a GitHub. Branch: Back-End
-
-### Módulo 8
-- SCRUM:                Crear las historias de usuarios, estimar SP y hs.
-- Java Spring Boot:     Diseño y creación de las APIs necesarias (back end) para conectar el FrontEnd de Angular con la base de datos MySQL implementando arquitectura en capas.
-- GITHUB:               Subir proyecto Spring Boot al repositorio. Branch: Back-End-SpringBoot
-
-### Módulo 9
-- SCRUM:                Crear las historias de usuarios, estimar SP y hs.
-- JWT:                  Opcional. Implementar JWT para gestionar sesiones de usuario y añadir capa de seguridad a la app.
-- Integración:          FrontEnd y BackEnd. CORS. Variables de entorno.
-- GITHUB:               Subir integración al repositorio.
-- Deploys:              FrontEnd a Firebase. BackEnd a Heroku. Base de Datos a CleverCloud.
+## Create portfolio service
+- ng generate service services/portfolio (Add to app.module.ts: import and providers)
+- Import HttpClient to portfolio service and import it to app.module.ts
+- Create mock.json
+- Create methods on portfolio service for each component
+- Subscribe to that data from each component
