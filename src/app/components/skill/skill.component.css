@@ -7,3 +7,13 @@
 .progress-bar {
   background-color: #212529;
 }
+
+.edition button {
+  background-color: #212529;
+  color: #EEEDF3;
+  width: 2.6em;
+  height: 2.6em;
+  border-radius: 50%;
+  line-height: 0px;
+  margin: 0 0 0.5em 0.5em;
+}

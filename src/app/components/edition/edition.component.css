@@ -5,9 +5,5 @@
   height: 2.5em;
   border-radius: 50%;
   line-height: 0px;
-  margin-left: 0.5em;
-}
-
-.hidden {
-  display: none;
+  margin: 0 0 0.5em 0.5em;
 }

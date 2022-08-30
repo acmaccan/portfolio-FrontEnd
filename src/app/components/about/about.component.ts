@@ -1,20 +1,29 @@
 import { Component, OnInit } from '@angular/core';
+// import { AuthenticationService } from 'src/app/services/authentication.service';
 import { PortfolioService } from 'src/app/services/portfolio.service';
 
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
-  styleUrls: ['./about.component.css']
+  styleUrls: ['./about.component.css'],
 })
 export class AboutComponent implements OnInit {
+  // isAdmin?: boolean = false;
   user: any;
 
-  constructor(private portfolioService: PortfolioService) { }
+  constructor(
+    private portfolioService: PortfolioService, 
+    // private authenticationService: AuthenticationService
+  ) {}
 
   ngOnInit(): void {
-    this.portfolioService.getUserData().subscribe(data => {
-      console.log("Header component: ", data); // We recieve the complete object on the console
-      this.user = data; // We recieve the data and store it in a variable
-    })
+    this.getAbout();
+    // this.isAdmin = this.authenticationService.isAdmin();
+  }
+
+  getAbout() {
+    this.portfolioService.getUserById().subscribe((data) => {
+      this.user = data;
+    });
   }
 }

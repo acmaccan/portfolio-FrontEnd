@@ -20,8 +20,8 @@
           ><img src="assets/images/social/stackblitz.svg" alt="stackblitz"
         /></a>
       </div>
-      <a href="/login" class="btn btn-outline-light" type="submit"
-        >Login</a
+      <a href="/login" class="btn btn-outline-light" type="submit" onclick="onLogout()"
+        >Logout</a
       >
     </div>
   </div>
@@ -33,7 +33,7 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="profile col-3">
+    <div class="profile col-12 col-md-4 col-lg-3">
       <img src="assets/images/avatar.jpg" alt="avatar" class="avatar" />
       <h1>{{ user.firstname }} {{ user.lastname }}</h1>
       <p>{{ user.title }}<br />
@@ -41,7 +41,7 @@
       </p>
     </div>
 
-    <div class="about col-9">
+    <div class="about col-12 col-md-8 col-lg-9">
       <app-about></app-about>
     </div>
   </div>

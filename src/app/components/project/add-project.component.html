@@ -1,0 +1,72 @@
+<div class="add-project container-fluid">
+  <div class="card-body shadow rounded">
+    <form (ngSubmit)="createProject()" novalidate #addProjectForm="ngForm">
+      <div class="form-group">
+        <label for="image">Image</label>
+        <input
+          type="text"
+          class="form-control"
+          id="image"
+          name="image"
+          [(ngModel)]="image"
+          placeholder="../assets/images/project/image.png"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          name="title"
+          [(ngModel)]="title"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="details">Details</label>
+        <input
+          type="text"
+          class="form-control"
+          id="details"
+          name="details"
+          [(ngModel)]="details"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="link">Link</label>
+        <input
+          type="text"
+          class="form-control"
+          id="link"
+          name="link"
+          [(ngModel)]="link"
+          placeholder="https://www.example.com"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="project_year">Project year</label>
+        <input
+          type="text"
+          class="form-control"
+          id="project_year"
+          name="project_year"
+          [(ngModel)]="project_year"
+          placeholder="2022"
+          required
+        />
+      </div>
+
+      <button class="btn btn-primary btn-block">Add Project</button>
+    </form>
+  </div>
+
+  <app-footer></app-footer>
+</div>

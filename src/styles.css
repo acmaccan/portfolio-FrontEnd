@@ -1,5 +1,5 @@
 body{
-  background-color: #BAC0D7;
+  background-color: #3f51b540;
   font-family: 'Roboto', sans-serif;
   font-size: 0.875em;
   color: #212529;
@@ -30,5 +30,5 @@ h3 {
 .card-body {
   padding: 1.5em;
   margin-top: 1.5em;
-  background-color: #EEEDF3;
+  background-color: #ebedfc;
 }

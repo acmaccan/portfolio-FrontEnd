@@ -1,0 +1,9 @@
+.edition button {
+  background-color: #212529;
+  color: #EEEDF3;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  line-height: 0px;
+  margin: 0 0 0.5em 0.5em;
+}

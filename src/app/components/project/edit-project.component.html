@@ -1,0 +1,72 @@
+<div class="edit-project container-fluid">
+  <div class="card-body shadow rounded">
+    <form (ngSubmit)="editProject()" novalidate #editProjectForm="ngForm">
+      <div class="form-group">
+        <label for="image">Image</label>
+        <input
+          type="text"
+          class="form-control"
+          id="image"
+          name="image"
+          [(ngModel)]="project.image"
+          placeholder="../assets/images/project/image.png"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          name="title"
+          [(ngModel)]="project.title"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="details">Details</label>
+        <input
+          type="text"
+          class="form-control"
+          id="details"
+          name="details"
+          [(ngModel)]="project.details"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="link">Link</label>
+        <input
+          type="text"
+          class="form-control"
+          id="link"
+          name="link"
+          [(ngModel)]="project.link"
+          placeholder="https://www.example.com"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="project_year">Project year</label>
+        <input
+          type="text"
+          class="form-control"
+          id="project_year"
+          name="project_year"
+          [(ngModel)]="project.project_year"
+          placeholder="2022"
+          required
+        />
+      </div>
+
+      <button class="btn btn-primary btn-block">Edit Project</button>
+    </form>
+  </div>
+
+  <app-footer></app-footer>
+</div>

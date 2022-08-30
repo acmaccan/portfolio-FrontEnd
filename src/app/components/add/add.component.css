@@ -1,0 +1,12 @@
+.add button {
+  color: #212529;
+  width: 2.6em;
+  height: 2.6em;
+  border-radius: 50%;
+  border: 1px solid #212529;
+}
+
+.add button:hover {
+  background-color: #212529;
+  color: #EEEDF3;
+}

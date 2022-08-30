@@ -1,0 +1,17 @@
+.add-skill {
+  margin: 10em auto;
+  width: 70%;
+  height: 29em;
+}
+
+.add-skill input {
+  font-size: small;
+  margin-bottom: 1em;
+}
+
+.add-skill .btn {
+  background-color: #212529;
+  color: #EEEDF3;
+  width: 100%;
+  margin: 1em auto;
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthenticationService } from 'src/app/services/authentication.service';
 import { PortfolioService } from 'src/app/services/portfolio.service';
 
 @Component({
@@ -9,13 +10,16 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
 export class HeaderComponent implements OnInit {
   user: any;
 
-  constructor(private portfolioService: PortfolioService) { }
+  constructor(private authenticationService: AuthenticationService, private portfolioService: PortfolioService) { }
 
   ngOnInit(): void {
-    this.portfolioService.getUserData().subscribe(data => {
-      console.log("Header component: ", data); // We recieve the complete object on the console
-      this.user = data; // We recieve the data and store it in a variable
+    this.portfolioService.getUserById().subscribe(data => {
+      this.user = data;
     })
+  }
+
+  onLogout() {
+    this.authenticationService.closeSession();
   }
 
 }

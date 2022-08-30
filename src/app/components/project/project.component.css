@@ -1,18 +1,41 @@
-.project .card .card-body {
-  background-color: #fafafa;
-  height: 12.5em;
-  margin-top: 0;
+.project .card {
+  background-color: #ebedfc;
+  border: none;
 }
 
 .project .card .card-body {
-  min-height: 13rem;
+  height: 12.5em;
+  margin-top: 0;
+  min-height: 12rem;
+  background-color: #f4f6ff;
 }
 
 .project .card .card-body .card-text {
   min-height: 3.75rem;
 }
 
-.project .btn {
+.project a {
   background-color: #212529;
   color: #EEEDF3;
+}
+
+.edition {
+  position: absolute;
+  top: 0.75em;
+  right: 1em;
+}
+
+.edition button {
+  background-color: #EEEDF3;
+  color: #212529;
+  opacity: 0.6;
+  width: 2.6em;
+  height: 2.6em;
+  border-radius: 50%;
+  line-height: 0px;
+  margin-left: 0.5em;
+}
+
+.edition button:hover {
+  opacity: 1;
 }

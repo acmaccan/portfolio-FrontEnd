@@ -2,7 +2,7 @@
   <div class="login">
       <div class="card-body shadow rounded">
 
-        <form [formGroup]="loginForm">
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit($event)">
           <div class="am">
             <img 
             src="../../assets/images/am.png"
