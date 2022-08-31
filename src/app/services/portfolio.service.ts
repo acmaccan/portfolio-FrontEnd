@@ -10,8 +10,8 @@ import { Skill } from '../models/skill';
   providedIn: 'root',
 })
 export class PortfolioService {
-  url = 'http://localhost:8080/';
-  // url = 'https://mighty-thicket-49246.herokuapp.com/';
+  // url = 'http://localhost:8080/';
+  url = 'https://arg-prog-portfolio-backend.herokuapp.com/';
   constructor(private http: HttpClient) {}
 
   // User

@@ -7,7 +7,8 @@ import { map } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class AuthenticationService {
-  url = 'http://localhost:8080/auth/login';
+    // url = 'http://localhost:8080/auth/login';
+    url = 'https://arg-prog-portfolio-backend.herokuapp.com/auth/login';
   currentUserSubject: BehaviorSubject<any>;
 
   constructor(private http: HttpClient) {
