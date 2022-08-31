@@ -1,0 +1,83 @@
+<div class="add-education container-fluid">
+  <div class="card-body shadow rounded">
+    <form (ngSubmit)="createEducation()" novalidate #addEducationForm="ngForm">
+      <div class="form-group">
+        <label for="thumb">Thumb</label>
+        <input
+          type="text"
+          class="form-control"
+          id="thumb"
+          name="thumb"
+          [(ngModel)]="thumb"
+          placeholder="../assets/images/education/thumb.png"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="institution">Institution</label>
+        <input
+          type="text"
+          class="form-control"
+          id="institution"
+          name="institution"
+          [(ngModel)]="institution"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="from_date">Start date</label>
+        <input
+          type="text"
+          class="form-control"
+          id="from_date"
+          name="from_date"
+          [(ngModel)]="from_date"
+          placeholder="2022-01"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="to_date">End date</label>
+        <input
+          type="text"
+          class="form-control"
+          id="to_date"
+          name="to_date"
+          [(ngModel)]="to_date"
+          placeholder="2023-01"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          name="title"
+          [(ngModel)]="title"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="details">Details</label>
+        <input
+          type="text"
+          class="form-control"
+          id="details"
+          name="details"
+          [(ngModel)]="details"
+          required
+        />
+      </div>
+      <button class="btn btn-primary btn-block">Add Education</button>
+    </form>
+  </div>
+
+  <app-footer></app-footer>
+</div>

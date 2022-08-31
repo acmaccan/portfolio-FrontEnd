@@ -30,7 +30,8 @@ Package                      Version<br/>
 - login body to login.component.html
 - styles to app.component.css
 - move assets
-- create components and move code
+- create components and move code and styles
+
 ## Create components
 - ng generate component components/header
 - ng generate component components/about
@@ -39,6 +40,10 @@ Package                      Version<br/>
 - ng generate component components/skill
 - ng generate component components/project
 - ng generate component components/footer
+- ng generate component components/add
+- ng generate component components/edition
+- ng generate component components/login
+- ng generate component components/portfolio
 
 ## Create portfolio service
 - ng generate service services/portfolio (Add to app.module.ts: import and providers)
@@ -46,3 +51,47 @@ Package                      Version<br/>
 - Create mock.json
 - Create methods on portfolio service for each component
 - Subscribe to that data from each component
+
+## Manage Routing
+- Separate login component, from portfolio
+- Insert router-outlet in app.component.html
+- Add paths in app-routing.module.ts
+
+## Form
+- Add FormBuilder to login constructor
+- Add ReactiveFormsModule to imports in app.module.ts
+- Add validations to form
+
+## Create authentication service
+- ng generate service services/authentication
+
+## Create interceptor service
+Allow us intercept http requests and add token before to hits the api.
+- ng generate service services/interceptor (Add to app.module.ts: import and providers)
+
+## Create authentication guard
+- ng generate guard services/Portfolio
+- CanActivate interface
+- Add guard to app-routing.module.ts
+
+## Create models
+- ng generate class models/jwt
+- ng generate class models/login
+- ng generate class models/user
+- ng generate class models/education
+- ng generate class models/experience
+- ng generate class models/project
+- ng generate class models/role
+- ng generate class models/skill
+
+## Complete services
+
+## Create add and edit components
+- ng generate component components/experience/add-experience --skip-tests --flat
+- ng generate component components/experience/edit-experience --skip-tests --flat
+- ng generate component components/education/add-education --skip-tests --flat
+- ng generate component components/education/edit-education --skip-tests --flat
+- ng generate component components/project/add-project --skip-tests --flat
+- ng generate component components/project/edit-project --skip-tests --flat
+- ng generate component components/skill/add-skill --skip-tests --flat
+- ng generate component components/skill/edit-skill --skip-tests --flat

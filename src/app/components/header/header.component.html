@@ -1,0 +1,48 @@
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="left">
+      <img src="/assets/images/logo.png" alt="logo" class="logo" />
+      <a class="navbar-brand">{{ user.firstname }} {{ user.lastname }}</a>
+    </div>
+
+    <div class="right">
+      <div class="social">
+        <a href="https://github.com/acmaccan" target="_blank"
+          ><img src="assets/images/social/github.svg" alt="github"
+        /></a>
+        <a href="https://gitlab.com/amaccan" target="_blank"
+          ><img src="assets/images/social/gitlab.svg" alt="gitlab"
+        /></a>
+        <a href="https://ar.linkedin.com/in/acmaccan" target="_blank"
+          ><img src="assets/images/social/linkedin.svg" alt="linkedin"
+        /></a>
+        <a href="https://stackblitz.com/@acmaccan" target="_blank"
+          ><img src="assets/images/social/stackblitz.svg" alt="stackblitz"
+        /></a>
+      </div>
+      <a href="/login" class="btn btn-outline-light" type="submit" onclick="onLogout()"
+        >Logout</a
+      >
+    </div>
+  </div>
+</nav>
+
+<div class="banner">
+  <img src="assets/images/banner.jpg" alt="banner" />
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="profile col-12 col-md-4 col-lg-3">
+      <img src="assets/images/avatar.jpg" alt="avatar" class="avatar" />
+      <h1>{{ user.firstname }} {{ user.lastname }}</h1>
+      <p>{{ user.title }}<br />
+        {{ user.location }}
+      </p>
+    </div>
+
+    <div class="about col-12 col-md-8 col-lg-9">
+      <app-about></app-about>
+    </div>
+  </div>
+</div>

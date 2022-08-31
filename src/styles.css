@@ -1,0 +1,34 @@
+body{
+  background-color: #3f51b540;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875em;
+  color: #212529;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.75em;
+  font-weight: 600;
+  color: #483D8B;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 2.25em;
+  color: #483D8B;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #483D8B;
+}
+
+.card-body {
+  padding: 1.5em;
+  margin-top: 1.5em;
+  background-color: #ebedfc;
+}

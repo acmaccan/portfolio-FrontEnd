@@ -1,0 +1,60 @@
+.navbar {
+  background-color: #24283B;
+  /* background-color: #293472; */
+  /* background-color: #212959; */
+  height: 4em;
+}
+
+.left .logo {
+  position: relative;
+  top: -0.25em;
+  height: 4em;
+}
+
+.left .navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+  top: 0.1em;
+  height: 3em;
+}
+
+.right .social {
+  display: inline;
+  position: relative;
+  top: -0.3em;
+}
+
+.right .social img{
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 1em;
+}
+
+.right .btn {
+  position: relative;
+  top: -0.5em;
+  width: 5.25em;
+  height: 2.5em;
+  font-size: 1em;
+}
+
+.banner {
+  height: 50vh;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile .avatar {
+  border-radius: 50%;
+  max-width: 12rem;
+  margin: -7rem 0 1em 1rem;
+}

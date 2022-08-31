@@ -1,0 +1,19 @@
+.progress {
+  height: 0.45em;
+  background-color: #FFFFFF;
+  margin: 1em 0 2em 0;
+}
+
+.progress-bar {
+  background-color: #212529;
+}
+
+.edition button {
+  background-color: #212529;
+  color: #EEEDF3;
+  width: 2.6em;
+  height: 2.6em;
+  border-radius: 50%;
+  line-height: 0px;
+  margin: 0 0 0.5em 0.5em;
+}

@@ -1,0 +1,85 @@
+<div class="edit-education container-fluid" *ngIf="education">
+  <div class="card-body shadow rounded">
+    <form (ngSubmit)="editEducation()" novalidate #editEducationForm="ngForm">
+      <div class="form-group">
+        <label for="thumb">Thumb</label>
+        <input
+          type="text"
+          class="form-control"
+          id="thumb"
+          name="thumb"
+          [(ngModel)]="education.thumb"
+          placeholder="../assets/images/education/thumb.png"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="institution">Institution</label>
+        <input
+          type="text"
+          class="form-control"
+          id="institution"
+          name="institution"
+          [(ngModel)]="education.institution"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="from_date">Start date</label>
+        <input
+          type="text"
+          class="form-control"
+          id="from_date"
+          name="from_date"
+          [(ngModel)]="education.from_date"
+          placeholder="2022-01"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="to_date">End date</label>
+        <input
+          type="text"
+          class="form-control"
+          id="to_date"
+          name="to_date"
+          [(ngModel)]="education.to_date"
+          placeholder="2023-011"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          name="title"
+          [(ngModel)]="education.title"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="details">Details</label>
+        <input
+          type="text"
+          class="form-control"
+          id="details"
+          name="details"
+          [(ngModel)]="education.details"
+          required
+        />
+      </div>
+
+      <button class="btn btn-primary btn-block">Edit Education</button>
+    </form>
+  </div>
+
+  <app-footer></app-footer>
+</div>
+

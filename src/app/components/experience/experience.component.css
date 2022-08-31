@@ -1,0 +1,24 @@
+.experience .thumb img {
+  width: 100%;
+  border: 1px solid #B3B9D3;
+  padding: 0.5em;
+  width: 5em;
+  height: 5em;
+}
+
+.experience .row {
+  margin: 0 0.25em;
+  padding: 1em 0;
+  border-bottom: 1px solid #B3B9D3;
+}
+
+.edition button {
+  background-color: #212529;
+  color: #EEEDF3;
+  width: 2.6em;
+  height: 2.6em;
+  border-radius: 50%;
+  line-height: 0px;
+  margin: 0 -1em 0.5em 1.5em;
+}
+

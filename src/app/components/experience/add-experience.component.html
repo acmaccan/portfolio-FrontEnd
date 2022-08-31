@@ -1,0 +1,97 @@
+<div class="add-experience container-fluid">
+  <div class="card-body shadow rounded">
+    <form (ngSubmit)="createExperience()" novalidate #addExperienceForm="ngForm">
+      <div class="form-group">
+        <label for="thumb">Thumb</label>
+        <input
+          type="text"
+          class="form-control"
+          id="thumb"
+          name="thumb"
+          [(ngModel)]="thumb"
+          placeholder="../assets/images/experience/thumb.png"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="company">Company</label>
+        <input
+          type="text"
+          class="form-control"
+          id="company"
+          name="company"
+          [(ngModel)]="company"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="from_date">Start date</label>
+        <input
+          type="text"
+          class="form-control"
+          id="from_date"
+          name="from_date"
+          [(ngModel)]="from_date"
+          placeholder="2022-01"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="to_date">End date</label>
+        <input
+          type="text"
+          class="form-control"
+          id="to_date"
+          name="to_date"
+          [(ngModel)]="to_date"
+          placeholder="2023-01"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Position</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          name="title"
+          [(ngModel)]="title"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="details">Details</label>
+        <input
+          type="text"
+          class="form-control"
+          id="details"
+          name="details"
+          [(ngModel)]="details"
+          required
+        />
+      </div>
+     
+      <div class="form-group">
+        <label for="type_id">Type</label>
+        <input
+          type="text"
+          class="form-control"
+          id="type_id"
+          name="type_id"
+          [(ngModel)]="type_id"
+          placeholder="1: full-time | 2: part-time | 3: freelance"
+          required
+        />
+      </div>
+
+      <button class="btn btn-primary btn-block">Add Experience</button>
+    </form>
+  </div>
+
+  <app-footer></app-footer>
+</div>
